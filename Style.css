@@ -1,0 +1,80 @@
+.container{
+    background: url("./images/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex; /* added property */
+    justify-content: center; /* added property */
+    align-items: center; /* added property */
+}
+.card{
+    width: 25%;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgb(59, 59, 59);
+    text-align: center;
+     margin: 0 auto;
+
+
+    
+}
+.classpattern{
+    object-fit: cover;
+   width: 100%;
+    background-size: cover;
+    border-radius: 5px;
+    height: 100px;
+}
+img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -40px;
+}
+.card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.card_social{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+.age{
+    color: rgb(156, 156, 156);
+    font-size: 18px;
+}
+hr{
+    color: rgb(255, 230, 230);
+}
+
+  
+  /* Tablet Styles */
+@media screen and (max-width: 400px){
+    .card{
+        width: 80%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        max-width: 90rem;
+        border-radius: 10px;
+    }
+    
+}
+
+/* Desktop Styles */
+
+
+    
+
+
+  
+  
+  
+  
